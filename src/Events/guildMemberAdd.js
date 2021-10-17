@@ -22,7 +22,7 @@ module.exports = new Event('guildMemberAdd', (client, member) => {
 		.setFooter(member)
 		.addFields({ 
 			name: "Welkom",
-			value: `Welkom ${member.user.tag} In ${member.guild.name} lees de regels in ${member.guild.channels.cache.find(c => c.name == "regels")} en veel plezier in de server `
+			value: `Welkom ${member.user.tag} In ${member.guild.name} lees de regels in ${member.guild.channels.cache.find(c => c.name == "regels")} en veel plezier in de server Gr: ${member.guild.roles.cache.find(c => name == "Manager")} `
 
 	})
 
