@@ -1,8 +1,9 @@
 const { MessageEmbed } = require('discord.js');
 const db = require('quick.db')
+const Command = require('./Commands')
 
 
-module.exports = {
+module.exports = new Command {
     config: {
         name: "ban",
         aliases: ["b", "banish"],
