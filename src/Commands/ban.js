@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 const db = require('quick.db')
-const Command = require('./Commands')
+const Command = require("../Structures/Command.js");
 
 
 module.exports = new Command {
