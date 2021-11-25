@@ -1,7 +1,7 @@
 /** @format */
 
 
-const Client = require('./src/Structures/Client');   
+const client = require('./src/Structures/Client');   
 
 const config = require('./src/Data/config.json');
 
